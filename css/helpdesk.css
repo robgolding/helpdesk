@@ -1,0 +1,99 @@
+html, body {
+    font-family: Georgia, serif;
+    font-size: 16px;
+}
+
+header {
+    height: 80px;
+    /*background-color: #666;*/
+    border-bottom: 2px solid #555;
+    background: url("../img/emblem.jpg") center left no-repeat #666;
+    background-position: 20px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 32px;
+    line-height: 80px;
+    float: left;
+    color: #fff;
+    margin-left: 150px;
+}
+
+header small {
+    font-size: 24px;
+    line-height: 80px;
+    float: right;
+    color: #fff;
+    margin-right: 30px;
+}
+
+#main {
+    width: 650px;
+    margin: auto;
+}
+
+#main h2 {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    margin: 20px 0;
+    color: #555;
+}
+
+#main div.content section {
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    margin-top: 20px;
+}
+
+#main div.content section div.link {
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+}
+
+#main div.content section div.link:last-child {
+    border-bottom: none;
+}
+
+#main div.content section div.link:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#main div.content section div.link h4 {
+    font-size: 18px;
+    padding: 15px 0 0 15px;
+    margin: 0;
+}
+
+#main div.content section div.link h4 a:link {
+    text-decoration: none;
+}
+
+#main div.content section div.link h4 a:hover {
+    text-decoration: none;
+    color: #06C;
+}
+
+#main div.content section div.link h4 a:visited {
+    text-decoration: none;
+    color: #06C;
+}
+
+#main div.content section p {
+    padding: 0 15px 15px 15px;
+    margin: 15px 0 0 0;
+}
+
+section ul {
+    margin: 0 0 15px 15px;
+}
+
+footer {
+    font-size: 14px;
+    color: #999;
+    width: 650px;
+    margin: auto;
+    padding: 10px 0;
+}
